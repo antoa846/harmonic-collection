@@ -1,39 +1,47 @@
 *{
-    background-color: #C4CFFC;
+    background-color: #ddcff5;
 }
 h3{
     Font-size: 60px;
-    color: #0F1F61;
+    color: #280d56;
     margin: 30px 30px;
     font-family: "big-caslon-fb", serif;
     font-weight: 800;
     font-style: normal;
     text-align: center;
 }
+#text-images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#harvest-moon-cover{
+    margin: 0 auto;
+}
 p{
     margin: 0;
     padding: 5px;
-    color: #0F1F61;
+    color: #280d56;
     font-family: "big-caslon-fb", serif;
     font-weight: 400;
     font-style: normal;
     width: 500px;
-    margin: 0 auto;
 }
 .song{
     font-family: "big-caslon-fb", serif;
     font-weight: 400;
     font-style: italic;
 }
-#lover-you-should-have-come-over{
+#lovesick{
     padding: 50px;
 }
-#tomorrow-never-came{
+#on-the-floor{
     padding: 50px;
 }
-#fake-plastic-trees{
+#i-cant-take-my-eyes-off-of-you{
     padding: 50px;
 }
-#im-your-man{
+#starburster{
     padding: 50px;
 }

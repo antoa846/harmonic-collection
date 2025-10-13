@@ -10,6 +10,15 @@ h3{
     font-style: normal;
     text-align: center;
 }
+#text-images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#harvest-moon-cover{
+    margin: 0 auto;
+}
 p{
     margin: 0;
     padding: 5px;
@@ -18,10 +27,27 @@ p{
     font-weight: 400;
     font-style: normal;
     width: 500px;
-    margin: 0 auto;
 }
 .song{
     font-family: "big-caslon-fb", serif;
     font-weight: 400;
     font-style: italic;
+}
+#harvest-moon{
+    padding: 50px;
+}
+#the-two-of-us{
+    padding: 50px;
+}
+#something-about-us{
+    padding: 50px;
+}
+#as-long-as-you-love-me{
+    padding: 50px;
+}
+#golden-brown{
+    padding: 50px;
+}
+#en-nuit{
+    padding: 50px;
 }
