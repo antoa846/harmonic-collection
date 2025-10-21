@@ -13,11 +13,8 @@ h3{
 #text-images{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-}
-#harvest-moon-cover{
-    margin: 0 auto;
 }
 p{
     margin: 0;
@@ -37,7 +34,7 @@ p{
     padding: 50px;
 }
 #on-the-floor{
-    padding: 50px;
+   padding: 50px;
 }
 #i-cant-take-my-eyes-off-of-you{
     padding: 50px;
