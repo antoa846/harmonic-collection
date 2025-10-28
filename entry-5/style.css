@@ -1,0 +1,100 @@
+body {
+    background-color: #ffe3b3;
+}
+h3{
+    Font-size: 60px;
+    color: #00467b;
+    margin: 30px 30px;
+    font-family: "big-caslon-fb", serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+}
+#text-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+p{
+    margin: 0;
+    padding:10px;
+    color: #00467b;
+    font-family: "big-caslon-fb", serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 280px;
+    background-color: #ffc872;
+}
+.song{
+    font-family: "big-caslon-fb", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.we-were-girls-together{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.to-watch-the-world-spin-without-you{
+   display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.as-long-as-you-love-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.my-love-mine-all-mine{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+img{
+    width:280px;
+    transition: transform 0.6s ease-in-out;
+}
+img:hover {
+  transform: scale(1.6);
+}
+#one{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    background-color:#3782ad;
+    width: 300px;
+    height: 300px;
+}
+#two{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    background-color:#3782ad;
+    width: 300px;
+    height: 300px;
+}
+#three{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    background-color:#3782ad;
+    width: 300px;
+    height: 300px;
+}
+#four{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    background-color:#3782ad;
+    width: 300px;
+    height: 300px;
+}
