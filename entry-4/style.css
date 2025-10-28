@@ -1,5 +1,5 @@
 body {
-    background-color: #b6d9b8;
+    background-color: #b6ced9;
 }
 h3{
     Font-size: 60px;
@@ -38,7 +38,6 @@ p{
     background-color:#224023;
     width: 500px;
     height: 600px;
-    border-radius: 10px;
 }
 .nothing{
    display: flex;
@@ -48,7 +47,6 @@ p{
     background-color:#224023;
     width: 500px;
     height: 600px;
-    border-radius: 10px;
 }
 .golden-brown{
     display: flex;
@@ -58,5 +56,4 @@ p{
     background-color:#224023;
     width: 500px;
     height: 600px;
-    border-radius: 10px;
 }

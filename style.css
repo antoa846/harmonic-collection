@@ -1,3 +1,39 @@
 body {
-  font-family: sans-serif;
+    background-color: #e3969c;
+}
+h1{
+    Font-size: 60px;
+    color: #78111a;
+    margin: 30px 30px;
+    font-family: "big-caslon-fb", serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+}
+h2{
+    Font-size: 50px;
+    color: #78111a;
+    margin: 30px 30px;
+    font-family: "big-caslon-fb", serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+}
+h3{
+    Font-size: 40px;
+    color: #78111a;
+    margin: 30px 30px;
+    font-family: "big-caslon-fb", serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+}
+p{
+    Font-size: 30px;
+    color: #78111a;
+    font-family: "big-caslon-fb", serif;
+    font-weight: 500;
+    font-style: normal;
+    width: 500px;
+    text-align: center;
 }

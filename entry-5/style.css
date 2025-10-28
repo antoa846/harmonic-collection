@@ -23,12 +23,12 @@ p{
     font-family: "big-caslon-fb", serif;
     font-weight: 400;
     font-style: normal;
-    width: 280px;
+    width: 320px;
     background-color: #ffc872;
 }
 .song{
     font-family: "big-caslon-fb", serif;
-    font-weight: 400;
+    font-weight: 420;
     font-style: italic;
 }
 .we-were-girls-together{
@@ -56,8 +56,8 @@ p{
     align-items: center;
 }
 img{
-    width:280px;
-    transition: transform 0.6s ease-in-out;
+    width:300px;
+    transition: transform 0.8s ease;
 }
 img:hover {
   transform: scale(1.6);
@@ -68,8 +68,8 @@ img:hover {
     justify-content: center;
     align-items: center;
     background-color:#3782ad;
-    width: 300px;
-    height: 300px;
+    width: 340px;
+    height: 340px;
 }
 #two{
     display: flex;
@@ -77,8 +77,8 @@ img:hover {
     justify-content: center;
     align-items: center;
     background-color:#3782ad;
-    width: 300px;
-    height: 300px;
+    width: 340px;
+    height: 340px;
 }
 #three{
     display: flex;
@@ -86,8 +86,8 @@ img:hover {
     justify-content: center;
     align-items: center;
     background-color:#3782ad;
-    width: 300px;
-    height: 300px;
+    width: 340px;
+    height: 340px;
 }
 #four{
     display: flex;
@@ -95,6 +95,13 @@ img:hover {
     justify-content: center;
     align-items: center;
     background-color:#3782ad;
-    width: 300px;
-    height: 300px;
+    width: 340px;
+    height: 340px;
+}
+.text-images {
+  display: grid; /* Enables CSS Grid layout */
+  grid-template-columns: 1fr 1fr; /* Creates two columns, each taking an equal fraction of available space */
+  grid-template-rows: auto auto; /* Creates two rows, their height determined by content */
+  gap: 10px; /* Optional: Adds a 10px gap between grid items */
+  /* Other optional styling for the container, e.g., width, background-color */
 }
