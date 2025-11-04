@@ -15,6 +15,7 @@ h3{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    gap:20px;
 }
 p{
     margin: 0;
@@ -98,10 +99,28 @@ img:hover {
     width: 340px;
     height: 340px;
 }
-.text-images {
-  display: grid; /* Enables CSS Grid layout */
-  grid-template-columns: 1fr 1fr; /* Creates two columns, each taking an equal fraction of available space */
-  grid-template-rows: auto auto; /* Creates two rows, their height determined by content */
-  gap: 10px; /* Optional: Adds a 10px gap between grid items */
-  /* Other optional styling for the container, e.g., width, background-color */
+@media (max-width:900px){
+   #text-images{
+    flex-direction:column;
+    gap:20px;
+  }
+  h3{
+    font-size:60px;
+    width:500px;
+    margin:0 auto;
+    padding:20px;
+  }  
 }
+@media (max-width:768px){
+  #text-images{
+    flex-direction:column;
+    gap:20px;
+  }
+  h3{
+    font-size:40px;
+    width:350px;
+    margin:0 auto;
+    padding:20px;
+  }
+}
+
