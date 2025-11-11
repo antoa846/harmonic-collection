@@ -50,13 +50,21 @@ p{
     justify-content: space-around;
     align-items: center;
 }
-img{
-    width:300px;
-    transition: transform 0.8s ease;
-}
 img:hover {
-  transform: scale(1.6);
+  border-radius: 50% ;
+  animation: rotate 14s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); 
+  }
+  to {
+    transform: rotate(1800deg); 
+  }
+}
+
 #one{
     display: flex;
     flex-direction:row;
