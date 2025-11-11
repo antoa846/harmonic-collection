@@ -32,26 +32,17 @@ p{
     font-weight: 420;
     font-style: italic;
 }
+
+
+
 .red-wine-supernova{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-.the-two-of-us{
-   display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-.manny-manny{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-img:hover {
-  border-radius: 50% ;
+.red-wine-supernova:hover #red-wine-supernova-cover{
+  border-radius: 50%;
   animation: rotate 14s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
@@ -64,6 +55,54 @@ img:hover {
     transform: rotate(1800deg); 
   }
 }
+
+
+
+.the-two-of-us{
+   display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.the-two-of-us:hover #the-two-of-us-cover{
+  border-radius: 50%;
+  animation: rotate 14s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); 
+  }
+  to {
+    transform: rotate(1800deg); 
+  }
+}
+
+
+
+.manny-manny{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.manny-manny:hover #manny-manny-cover{
+  border-radius: 50%;
+  animation: rotate 14s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); 
+  }
+  to {
+    transform: rotate(1800deg); 
+  }
+}
+
+
 
 #one{
     display: flex;
