@@ -1,0 +1,111 @@
+body {
+    background-color: #e2b5ca;
+}
+h3{
+    Font-size: 60px;
+    color: #085519;
+    margin: 30px 30px;
+    font-family: "big-caslon-fb", serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+}
+#text-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap:20px;
+}
+p{
+    margin: 0;
+    padding:10px;
+    color: #085519;
+    font-family: "big-caslon-fb", serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 320px;
+    background-color: #b6c4ba;
+}
+.song{
+    font-family: "big-caslon-fb", serif;
+    font-weight: 420;
+    font-style: italic;
+}
+.red-wine-supernova{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.the-two-of-us{
+   display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.manny-manny{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+img{
+    width:300px;
+    transition: transform 0.8s ease;
+}
+img:hover {
+  transform: scale(1.6);
+}
+#one{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    background-color:#b26a8c;
+    width: 340px;
+    height: 340px;
+}
+#two{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    background-color:#b26a8c;
+    width: 340px;
+    height: 340px;
+}
+#three{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    background-color:#b26a8c;
+    width: 340px;
+    height: 340px;
+}
+@media (max-width:900px){
+   #text-images{
+    flex-direction:column;
+    gap:20px;
+  }
+  h3{
+    font-size:60px;
+    width:500px;
+    margin:0 auto;
+    padding:20px;
+  }  
+}
+@media (max-width:768px){
+  #text-images{
+    flex-direction:column;
+    gap:20px;
+  }
+  h3{
+    font-size:40px;
+    width:350px;
+    margin:0 auto;
+    padding:20px;
+  }
+}
+
