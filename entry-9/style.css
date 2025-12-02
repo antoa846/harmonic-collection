@@ -43,6 +43,7 @@ p{
     background-color: #da9f93;
     font-size: px;
 }
+
 .song{
     font-family: "big-caslon-fb", serif;
     font-weight: 420;
@@ -68,21 +69,22 @@ h1{
 .button{
   background-color: #b6465f;
   width: 140px;
-  height: 55px;
+  height: 70px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  border-radius: 100%;
 }
 
 
-.lovebuzz{
+.baby-this-is-love-i-have{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-.lovebuzz:hover #lovebuzz-cover{
+.baby-this-is-love-i-have:hover #baby-this-is-love-i-have-cover{
   border-radius: 50%;
   animation: rotate 14s;
   animation-timing-function: ease-in-out;
@@ -100,13 +102,13 @@ h1{
 
 
 
-.im-your-man{
+.my-son{
    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-.im-your-man:hover #im-your-man-cover{
+.my-son:hover #my-son-cover{
   border-radius: 50%;
   animation: rotate 14s;
   animation-timing-function: ease-in-out;
