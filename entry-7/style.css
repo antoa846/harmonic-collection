@@ -1,14 +1,29 @@
 body {
     background-color: #ffe1a8;
 }
+#space-one{
+  height: 17vw;
+  width:100%;
+}
+
 h3{
-    Font-size: 60px;
+    Font-size: 90px;
     color: #540b0e;
     margin: 30px 30px;
-    font-family: "big-caslon-fb", serif;
-    font-weight: 800;
+    font-family: "birds-of-paradise", serif;
+    font-weight: 500;
     font-style: normal;
     text-align: center;
+}
+@font-face {
+    font-family:'birds-of-paradise';
+    src: url('../assets/BirdsOfParadisePersonalUseOnly-dX7X.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+#space-two{
+  height: 30vw;
+  width:100%;
 }
 #text-images{
     display: flex;
@@ -24,15 +39,41 @@ p{
     font-family: "big-caslon-fb", serif;
     font-weight: 400;
     font-style: normal;
-    width: 320px;
+    width: 460px;
     background-color: #e09f3e;
+    font-size: px;
 }
 .song{
     font-family: "big-caslon-fb", serif;
     font-weight: 420;
-    font-style: italic;
+    font-style: normal;
 }
-
+h1{
+  font-family: "birds-of-paradise", serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  cursor:pointer; 
+  color: #540b0e;
+}
+.play{
+  background-color: #e09f3e; 
+  padding:10px;
+  width: 460px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.button{
+  background-color: #ffe1a8;
+  width: 140px;
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
 
 
 .lovebuzz{
@@ -111,8 +152,8 @@ p{
     justify-content: center;
     align-items: center;
     background-color:#9e2a2b;
-    width: 340px;
-    height: 340px;
+    width: 480px;
+    height: 480px;
 }
 #two{
     display: flex;
@@ -120,8 +161,8 @@ p{
     justify-content: center;
     align-items: center;
     background-color:#9e2a2b;
-    width: 340px;
-    height: 340px;
+    width: 480px;
+    height: 480px;
 }
 #three{
     display: flex;
@@ -129,8 +170,8 @@ p{
     justify-content: center;
     align-items: center;
     background-color:#9e2a2b;
-    width: 340px;
-    height: 340px;
+    width: 480px;
+    height: 480px;
 }
 @media (max-width:900px){
    #text-images{
@@ -155,4 +196,9 @@ p{
     margin:0 auto;
     padding:20px;
   }
+}
+
+#space-three{
+  height:3vw;
+  width:100%;
 }

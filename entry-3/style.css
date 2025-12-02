@@ -5,10 +5,16 @@ h3{
     Font-size: 60px;
     color: #280d56;
     margin: 30px 30px;
-    font-family: "big-caslon-fb", serif;
+    font-family: "birds-of-paradise", serif;
     font-weight: 800;
     font-style: normal;
     text-align: center;
+}
+@font-face {
+    font-family:'birds-of-paradise';
+    src: url('../assets/BirdsOfParadisePersonalUseOnly-dX7X.ttf');
+    font-style: normal;
+    font-weight: normal;
 }
 #text-images{
     display: flex;

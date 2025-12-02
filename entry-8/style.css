@@ -1,12 +1,17 @@
 body {
-    background-color: #e2b5ca;
+    background-color: #caf0f8;
 }
+#space-one{
+  height: 17vw;
+  width:100%;
+}
+
 h3{
-    Font-size: 60px;
-    color: #085519;
+    Font-size: 90px;
+    color: #03045e;
     margin: 30px 30px;
-    font-family: "birds-pf-paradise", serif;
-    font-weight: 800;
+    font-family: "birds-of-paradise", serif;
+    font-weight: 500;
     font-style: normal;
     text-align: center;
 }
@@ -15,6 +20,10 @@ h3{
     src: url('../assets/BirdsOfParadisePersonalUseOnly-dX7X.ttf');
     font-style: normal;
     font-weight: normal;
+}
+#space-two{
+  height: 30vw;
+  width:100%;
 }
 #text-images{
     display: flex;
@@ -26,28 +35,54 @@ h3{
 p{
     margin: 0;
     padding:10px;
-    color: #085519;
+    color: #03045e;
     font-family: "big-caslon-fb", serif;
     font-weight: 400;
     font-style: normal;
-    width: 320px;
-    background-color: #b6c4ba;
+    width: 460px;
+    background-color: #00b4d8;
+    font-size: px;
 }
 .song{
     font-family: "big-caslon-fb", serif;
     font-weight: 420;
-    font-style: italic;
+    font-style: normal;
+}
+h1{
+  font-family: "birds-of-paradise", serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  cursor:pointer; 
+  color: #03045e;
+}
+.play{
+  background-color: #00b4d8; 
+  padding:10px;
+  width: 460px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.button{
+  background-color: #90e0ef;
+  width: 140px;
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 
-
-.red-wine-supernova{
+.all-my-stars-aligned{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-.red-wine-supernova:hover #red-wine-supernova-cover{
+.all-my-stars-aligned:hover #all-my-stars-aligned-cover{
   border-radius: 50%;
   animation: rotate 14s;
   animation-timing-function: ease-in-out;
@@ -64,13 +99,14 @@ p{
 
 
 
-.the-two-of-us{
+
+.the-perfect-girl{
    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-.the-two-of-us:hover #the-two-of-us-cover{
+.the-perfect-girl:hover #the-perfect-girl-cover{
   border-radius: 50%;
   animation: rotate 14s;
   animation-timing-function: ease-in-out;
@@ -87,13 +123,13 @@ p{
 
 
 
-.manny-manny{
+.something-about-us{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-.manny-manny:hover #manny-manny-cover{
+.something-about-us:hover #something-about-us-cover{
   border-radius: 50%;
   animation: rotate 14s;
   animation-timing-function: ease-in-out;
@@ -115,27 +151,27 @@ p{
     flex-direction:row;
     justify-content: center;
     align-items: center;
-    background-color:#b26a8c;
-    width: 340px;
-    height: 340px;
+    background-color:#03045e;
+    width: 480px;
+    height: 480px;
 }
 #two{
     display: flex;
     flex-direction:row;
     justify-content: center;
     align-items: center;
-    background-color:#b26a8c;
-    width: 340px;
-    height: 340px;
+    background-color:#03045e;
+    width: 480px;
+    height: 480px;
 }
 #three{
     display: flex;
     flex-direction:row;
     justify-content: center;
     align-items: center;
-    background-color:#b26a8c;
-    width: 340px;
-    height: 340px;
+    background-color:#03045e;
+    width: 480px;
+    height: 480px;
 }
 @media (max-width:900px){
    #text-images{
@@ -162,3 +198,7 @@ p{
   }
 }
 
+#space-three{
+  height:3vw;
+  width:100%;
+}

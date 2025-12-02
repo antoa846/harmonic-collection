@@ -1,12 +1,17 @@
 body {
-    background-color: #e2b5ca;
+    background-color: #ebd4cb;
 }
+#space-one{
+  height: 17vw;
+  width:100%;
+}
+
 h3{
-    Font-size: 60px;
-    color: #085519;
+    Font-size: 90px;
+    color: #2c0703;
     margin: 30px 30px;
-    font-family: "birds-pf-paradise", serif;
-    font-weight: 800;
+    font-family: "birds-of-paradise", serif;
+    font-weight: 500;
     font-style: normal;
     text-align: center;
 }
@@ -15,6 +20,10 @@ h3{
     src: url('../assets/BirdsOfParadisePersonalUseOnly-dX7X.ttf');
     font-style: normal;
     font-weight: normal;
+}
+#space-two{
+  height: 30vw;
+  width:100%;
 }
 #text-images{
     display: flex;
@@ -26,28 +35,54 @@ h3{
 p{
     margin: 0;
     padding:10px;
-    color: #085519;
+    color: #2c0703;
     font-family: "big-caslon-fb", serif;
     font-weight: 400;
     font-style: normal;
-    width: 320px;
-    background-color: #b6c4ba;
+    width: 460px;
+    background-color: #da9f93;
+    font-size: px;
 }
 .song{
     font-family: "big-caslon-fb", serif;
     font-weight: 420;
-    font-style: italic;
+    font-style: normal;
+}
+h1{
+  font-family: "birds-of-paradise", serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  cursor:pointer; 
+  color: #2c0703;
+}
+.play{
+  background-color: #da9f93; 
+  padding:10px;
+  width: 460px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.button{
+  background-color: #b6465f;
+  width: 140px;
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 
-
-.red-wine-supernova{
+.lovebuzz{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-.red-wine-supernova:hover #red-wine-supernova-cover{
+.lovebuzz:hover #lovebuzz-cover{
   border-radius: 50%;
   animation: rotate 14s;
   animation-timing-function: ease-in-out;
@@ -64,13 +99,14 @@ p{
 
 
 
-.the-two-of-us{
+
+.im-your-man{
    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-.the-two-of-us:hover #the-two-of-us-cover{
+.im-your-man:hover #im-your-man-cover{
   border-radius: 50%;
   animation: rotate 14s;
   animation-timing-function: ease-in-out;
@@ -87,13 +123,13 @@ p{
 
 
 
-.manny-manny{
+.starburster{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-.manny-manny:hover #manny-manny-cover{
+.starburster:hover #starburster-cover{
   border-radius: 50%;
   animation: rotate 14s;
   animation-timing-function: ease-in-out;
@@ -115,27 +151,27 @@ p{
     flex-direction:row;
     justify-content: center;
     align-items: center;
-    background-color:#b26a8c;
-    width: 340px;
-    height: 340px;
+    background-color:#890620;
+    width: 480px;
+    height: 480px;
 }
 #two{
     display: flex;
     flex-direction:row;
     justify-content: center;
     align-items: center;
-    background-color:#b26a8c;
-    width: 340px;
-    height: 340px;
+    background-color:#890620;
+    width: 480px;
+    height: 480px;
 }
 #three{
     display: flex;
     flex-direction:row;
     justify-content: center;
     align-items: center;
-    background-color:#b26a8c;
-    width: 340px;
-    height: 340px;
+    background-color:#890620;
+    width: 480px;
+    height: 480px;
 }
 @media (max-width:900px){
    #text-images{
@@ -162,3 +198,7 @@ p{
   }
 }
 
+#space-three{
+  height:3vw;
+  width:100%;
+}
