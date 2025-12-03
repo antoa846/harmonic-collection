@@ -156,6 +156,9 @@ a{
   justify-content: space-around;
   align-items: center;
   border-radius: 100%;
+  border-width: 3.5px;
+  border-style: solid;
+  border-color: #890620;
 }
 
 .harvest-moon{
