@@ -36,26 +36,53 @@ p{
     margin: 0;
     padding:10px;
     color: #2c0703;
-    font-family: "big-caslon-fb", serif;
+    font-family: "Futura", sans-serif;
     font-weight: 400;
     font-style: normal;
     width: 460px;
     background-color: #da9f93;
-    font-size: px;
+    font-size: 15px;
+}
+#arrow{
+  background-color: #ebd4cb;
+  font-size:40px;
+  margin: 0 auto;
+  position: relative;
+  z-index: -1;
+  text-align:center;
+  justify-content: center;
+}
+#arrow{
+  animation: fadeInOut 3s infinite; 
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0; 
+  }
+  50% {
+    opacity: 1; 
+  }
+  100% {
+    opacity: 0; 
+  }
 }
 
 .song{
-    font-family: "big-caslon-fb", serif;
-    font-weight: 420;
-    font-style: normal;
+    font-family: "Futura", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    
 }
-h1{
+a{
   font-family: "birds-of-paradise", serif;
   font-weight: 500;
   font-style: normal;
   text-align: center;
   cursor:pointer; 
   color: #2c0703;
+  text-decoration: none;
+  font-size: 30px;
 }
 .play{
   background-color: #da9f93; 
@@ -77,12 +104,14 @@ h1{
   border-radius: 100%;
 }
 
-
 .baby-this-is-love-i-have{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    border-width: 3.5px;
+    border-style: solid;
+    border-color: #890620;
 }
 .baby-this-is-love-i-have:hover #baby-this-is-love-i-have-cover{
   border-radius: 50%;
@@ -107,6 +136,9 @@ h1{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    border-width: 3.5px;
+    border-style: solid;
+    border-color: #890620;
 }
 .my-son:hover #my-son-cover{
   border-radius: 50%;
@@ -125,13 +157,16 @@ h1{
 
 
 
-.starburster{
+.vincent{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    border-width: 3.5px;
+    border-style: solid;
+    border-color: #890620;
 }
-.starburster:hover #starburster-cover{
+.vincent:hover #vincent-cover{
   border-radius: 50%;
   animation: rotate 14s;
   animation-timing-function: ease-in-out;
@@ -203,4 +238,20 @@ h1{
 #space-three{
   height:3vw;
   width:100%;
+}
+
+#nav-bar{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  position: sticky;
+  top: 5px;
+}
+#prev{
+  background-color:#ebd4cb;
+    width:89px;
+}
+#next{
+  background-color:#ebd4cb;
+  width:67px;
 }
