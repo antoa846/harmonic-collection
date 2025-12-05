@@ -1,4 +1,4 @@
-body {
+/* body {
     background-color: #caf0f8;
 }
 #space-one{
@@ -201,4 +201,274 @@ h1{
 #space-three{
   height:3vw;
   width:100%;
+} */
+
+body {
+    background-color: #ebd4cb;
+}
+#space-one{
+  height: 17vw;
+  width:100%;
+}
+
+h3{
+    Font-size: 90px;
+    color: #2c0703;
+    margin: 30px 30px;
+    font-family: "birds-of-paradise", serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    line-height: 1.2;
+}
+@font-face {
+    font-family:'birds-of-paradise';
+    src: url('../assets/BirdsOfParadisePersonalUseOnly-dX7X.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+#space-two{
+  height: 30vw;
+  width:100%;
+}
+#text-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap:20px;
+}
+p{
+    margin: 0;
+    padding:10px;
+    color: #2c0703;
+    font-family: "Futura", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 460px;
+    background-color: #da9f93;
+    font-size: 15px;
+}
+#arrow{
+  background-color: #ebd4cb;
+  font-size:40px;
+  margin: 0 auto;
+  position: relative;
+  z-index: -1;
+  text-align:center;
+  justify-content: center;
+}
+#arrow{
+  animation: fadeInOut 3s infinite; 
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0; 
+  }
+  50% {
+    opacity: 1; 
+  }
+  100% {
+    opacity: 0; 
+  }
+}
+
+.song{
+    font-family: "Futura", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    
+}
+a{
+  font-family: "birds-of-paradise", serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  cursor:pointer; 
+  color: #2c0703;
+  text-decoration: none;
+  font-size: 30px;
+}
+.play{
+  background-color: #da9f93; 
+  padding:10px;
+  width: 460px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.button{
+  background-color: #b6465f;
+  width: 140px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 100%;
+  border-width: 3.5px;
+  border-style: solid;
+  border-color: #890620;
+}
+
+.all-my-stars-aligned{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-width: 3.5px;
+    border-style: solid;
+    border-color: #890620;
+}
+.all-my-stars-aligned:hover #all-my-stars-aligned-cover{
+  border-radius: 50%;
+  animation: rotate 14s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); 
+  }
+  to {
+    transform: rotate(1800deg); 
+  }
+}
+
+
+
+
+.the-perfect-girl{
+   display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-width: 3.5px;
+    border-style: solid;
+    border-color: #890620;
+}
+.the-perfect-girl:hover #the-perfect-girl-cover{
+  border-radius: 50%;
+  animation: rotate 14s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); 
+  }
+  to {
+    transform: rotate(1800deg); 
+  }
+}
+
+
+
+.something-about-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-width: 3.5px;
+    border-style: solid;
+    border-color: #890620;
+}
+.something-about-us:hover #something-about-us-cover{
+  border-radius: 50%;
+  animation: rotate 14s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); 
+  }
+  to {
+    transform: rotate(1800deg); 
+  }
+}
+
+
+
+#one{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    background-color:#890620;
+    width: 480px;
+    height: 480px;
+}
+#two{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    background-color:#890620;
+    width: 480px;
+    height: 480px;
+}
+#three{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    background-color:#890620;
+    width: 480px;
+    height: 480px;
+}
+@media (max-width:900px){
+   #text-images{
+    flex-direction:column;
+    gap:20px;
+  }
+  h3{
+    font-size:60px;
+    width:500px;
+    margin:0 auto;
+    padding:20px;
+  }  
+}
+@media (max-width:768px){
+  #text-images{
+    flex-direction:column;
+    gap:20px;
+  }
+  h3{
+    font-size:40px;
+    width:350px;
+    margin:0 auto;
+    padding:20px;
+  }
+}
+
+#space-three{
+  height:3vw;
+  width:100%;
+}
+
+#nav-bar{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  position: sticky;
+  top: 5px;
+}
+#prev{
+  background-color:#ebd4cb;
+  width:130px;
+  font-family: "Futura", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:20px;
+}
+#next{
+  background-color:#ebd4cb;
+  width:100px;
+  font-family: "Futura", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:20px;
 }

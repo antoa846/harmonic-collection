@@ -1,5 +1,5 @@
 body {
-    background-color: #ffe1a8;
+    background-color: #ebd4cb;
 }
 #space-one{
   height: 17vw;
@@ -8,12 +8,13 @@ body {
 
 h3{
     Font-size: 90px;
-    color: #540b0e;
+    color: #2c0703;
     margin: 30px 30px;
     font-family: "birds-of-paradise", serif;
     font-weight: 500;
     font-style: normal;
     text-align: center;
+    line-height: 1.2;
 }
 @font-face {
     font-family:'birds-of-paradise';
@@ -35,29 +36,57 @@ h3{
 p{
     margin: 0;
     padding:10px;
-    color: #540b0e;
-    font-family: "big-caslon-fb", serif;
+    color: #2c0703;
+    font-family: "Futura", sans-serif;
     font-weight: 400;
     font-style: normal;
     width: 460px;
-    background-color: #e09f3e;
-    font-size: px;
+    background-color: #da9f93;
+    font-size: 15px;
 }
+#arrow{
+  background-color: #ebd4cb;
+  font-size:40px;
+  margin: 0 auto;
+  position: relative;
+  z-index: -1;
+  text-align:center;
+  justify-content: center;
+}
+#arrow{
+  animation: fadeInOut 3s infinite; 
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0; 
+  }
+  50% {
+    opacity: 1; 
+  }
+  100% {
+    opacity: 0; 
+  }
+}
+
 .song{
-    font-family: "big-caslon-fb", serif;
-    font-weight: 420;
-    font-style: normal;
+    font-family: "Futura", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    
 }
-h1{
+a{
   font-family: "birds-of-paradise", serif;
   font-weight: 500;
   font-style: normal;
   text-align: center;
   cursor:pointer; 
-  color: #540b0e;
+  color: #2c0703;
+  text-decoration: none;
+  font-size: 30px;
 }
 .play{
-  background-color: #e09f3e; 
+  background-color: #da9f93; 
   padding:10px;
   width: 460px;
   display: flex;
@@ -66,21 +95,27 @@ h1{
   align-items: center;
 }
 .button{
-  background-color: #ffe1a8;
+  background-color: #b6465f;
   width: 140px;
-  height: 55px;
+  height: 70px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  border-radius: 100%;
+  border-width: 3.5px;
+  border-style: solid;
+  border-color: #890620;
 }
-
 
 .lovebuzz{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    border-width: 3.5px;
+    border-style: solid;
+    border-color: #890620;
 }
 .lovebuzz:hover #lovebuzz-cover{
   border-radius: 50%;
@@ -105,6 +140,9 @@ h1{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    border-width: 3.5px;
+    border-style: solid;
+    border-color: #890620;
 }
 .im-your-man:hover #im-your-man-cover{
   border-radius: 50%;
@@ -128,6 +166,9 @@ h1{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    border-width: 3.5px;
+    border-style: solid;
+    border-color: #890620;
 }
 .starburster:hover #starburster-cover{
   border-radius: 50%;
@@ -151,7 +192,7 @@ h1{
     flex-direction:row;
     justify-content: center;
     align-items: center;
-    background-color:#9e2a2b;
+    background-color:#890620;
     width: 480px;
     height: 480px;
 }
@@ -160,7 +201,7 @@ h1{
     flex-direction:row;
     justify-content: center;
     align-items: center;
-    background-color:#9e2a2b;
+    background-color:#890620;
     width: 480px;
     height: 480px;
 }
@@ -169,7 +210,7 @@ h1{
     flex-direction:row;
     justify-content: center;
     align-items: center;
-    background-color:#9e2a2b;
+    background-color:#890620;
     width: 480px;
     height: 480px;
 }
@@ -201,4 +242,28 @@ h1{
 #space-three{
   height:3vw;
   width:100%;
+}
+
+#nav-bar{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  position: sticky;
+  top: 5px;
+}
+#prev{
+  background-color:#ebd4cb;
+  width:130px;
+  font-family: "Futura", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:20px;
+}
+#next{
+  background-color:#ebd4cb;
+  width:100px;
+  font-family: "Futura", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:20px;
 }

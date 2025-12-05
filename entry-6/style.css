@@ -1,20 +1,31 @@
-body {
-    background-color: #e2b5ca;
+
+ body {
+    background-color: #ebd4cb;
 }
+#space-one{
+  height: 17vw;
+  width:100%;
+}
+
 h3{
-    Font-size: 60px;
-    color: #085519;
+    Font-size: 90px;
+    color: #2c0703;
     margin: 30px 30px;
-    font-family: "birds-pf-paradise", serif;
-    font-weight: 800;
+    font-family: "birds-of-paradise", serif;
+    font-weight: 500;
     font-style: normal;
     text-align: center;
+    line-height: 1.2;
 }
 @font-face {
     font-family:'birds-of-paradise';
     src: url('../assets/BirdsOfParadisePersonalUseOnly-dX7X.ttf');
     font-style: normal;
     font-weight: normal;
+}
+#space-two{
+  height: 30vw;
+  width:100%;
 }
 #text-images{
     display: flex;
@@ -26,28 +37,88 @@ h3{
 p{
     margin: 0;
     padding:10px;
-    color: #085519;
-    font-family: "big-caslon-fb", serif;
+    color: #2c0703;
+    font-family: "Futura", sans-serif;
     font-weight: 400;
     font-style: normal;
-    width: 320px;
-    background-color: #b6c4ba;
+    width: 460px;
+    background-color: #da9f93;
+    font-size: 15px;
 }
+#arrow{
+  background-color: #ebd4cb;
+  font-size:40px;
+  margin: 0 auto;
+  position: relative;
+  z-index: -1;
+  text-align:center;
+  justify-content: center;
+}
+#arrow{
+  animation: fadeInOut 3s infinite; 
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0; 
+  }
+  50% {
+    opacity: 1; 
+  }
+  100% {
+    opacity: 0; 
+  }
+}
+
 .song{
-    font-family: "big-caslon-fb", serif;
-    font-weight: 420;
+    font-family: "Futura", sans-serif;
+    font-weight: 700;
     font-style: italic;
+    
+}
+a{
+  font-family: "birds-of-paradise", serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  cursor:pointer; 
+  color: #2c0703;
+  text-decoration: none;
+  font-size: 30px;
+}
+.play{
+  background-color: #da9f93; 
+  padding:10px;
+  width: 460px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.button{
+  background-color: #b6465f;
+  width: 140px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 100%;
+  border-width: 3.5px;
+  border-style: solid;
+  border-color: #890620;
 }
 
-
-
-.red-wine-supernova{
+.the-two-of-us{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    border-width: 3.5px;
+    border-style: solid;
+    border-color: #890620;
 }
-.red-wine-supernova:hover #red-wine-supernova-cover{
+.the-two-of-us:hover #the-two-of-us-cover{
   border-radius: 50%;
   animation: rotate 14s;
   animation-timing-function: ease-in-out;
@@ -64,13 +135,17 @@ p{
 
 
 
-.the-two-of-us{
+
+.red-wine-supernova{
    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    border-width: 3.5px;
+    border-style: solid;
+    border-color: #890620;
 }
-.the-two-of-us:hover #the-two-of-us-cover{
+.red-wine-supernova:hover #red-wine-supernova-cover{
   border-radius: 50%;
   animation: rotate 14s;
   animation-timing-function: ease-in-out;
@@ -92,6 +167,9 @@ p{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    border-width: 3.5px;
+    border-style: solid;
+    border-color: #890620;
 }
 .manny-manny:hover #manny-manny-cover{
   border-radius: 50%;
@@ -115,27 +193,27 @@ p{
     flex-direction:row;
     justify-content: center;
     align-items: center;
-    background-color:#b26a8c;
-    width: 340px;
-    height: 340px;
+    background-color:#890620;
+    width: 480px;
+    height: 480px;
 }
 #two{
     display: flex;
     flex-direction:row;
     justify-content: center;
     align-items: center;
-    background-color:#b26a8c;
-    width: 340px;
-    height: 340px;
+    background-color:#890620;
+    width: 480px;
+    height: 480px;
 }
 #three{
     display: flex;
     flex-direction:row;
     justify-content: center;
     align-items: center;
-    background-color:#b26a8c;
-    width: 340px;
-    height: 340px;
+    background-color:#890620;
+    width: 480px;
+    height: 480px;
 }
 @media (max-width:900px){
    #text-images{
@@ -162,3 +240,31 @@ p{
   }
 }
 
+#space-three{
+  height:3vw;
+  width:100%;
+}
+
+#nav-bar{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  position: sticky;
+  top: 5px;
+}
+#prev{
+  background-color:#ebd4cb;
+  width:130px;
+  font-family: "Futura", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:20px;
+}
+#next{
+  background-color:#ebd4cb;
+  width:100px;
+  font-family: "Futura", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:20px;
+}
