@@ -1,0 +1,70 @@
+body {
+    background-color: #ebd4cb;
+}
+#space-one{
+  height: 1vw;
+  width:100%;
+}
+
+h3{
+    Font-size: 90px;
+    color: #2c0703;
+    margin: 30px 30px;
+    font-family: "birds-of-paradise", serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    line-height: 1.2;
+}
+@font-face {
+    font-family:'birds-of-paradise';
+    src: url('../assets/BirdsOfParadisePersonalUseOnly-dX7X.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+p{
+    margin: 0;
+    padding:10px;
+    color: #2c0703;
+    font-family: "Futura", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 460px;
+    background-color: #da9f93;
+    font-size: 15px;
+}
+a{
+  font-family: "birds-of-paradise", serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  cursor:pointer; 
+  color: #2c0703;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+
+#nav-bar{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  position: sticky;
+  top: 5px;
+}
+#prev{
+  background-color:#ebd4cb;
+  width:130px;
+  font-family: "Futura", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:20px;
+}
+#next{
+  background-color:#ebd4cb;
+  width:100px;
+  font-family: "Futura", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:20px;
+}
